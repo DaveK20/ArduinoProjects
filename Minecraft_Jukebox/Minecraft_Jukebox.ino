@@ -23,10 +23,10 @@ void loop() {
   while(getID())
   {
    if(tagID == music_disc[0]){
-    Serial.println("traveco?");
+    Serial.println("musica 1");
    }
    if(tagID == music_disc[1]){
-    Serial.println("sexo?");
+    Serial.println("musica 2");
    }
   }
 }
